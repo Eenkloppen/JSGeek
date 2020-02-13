@@ -21,7 +21,7 @@ function numberToObject(number)
     let objectNumber = {};
     if (arrayNumber.length > 4){
         return null;
-    }else {
+    } else {
         objectNumber['тысячи'] = Number(arrayNumber[0]); 
         objectNumber['сотни'] = Number(arrayNumber[1]); 
         objectNumber['десятки'] = Number(arrayNumber[2]);
